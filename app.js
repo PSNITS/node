@@ -49,7 +49,7 @@ const PORT = process.env.PORT || 5000;
 
 
 app.use("/",(req,res,next)=>{
-    res.send("<h1>successful</h1>")
+    res.send("<h1>successful running</h1>")
 })
 
 
